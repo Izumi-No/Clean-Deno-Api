@@ -1,0 +1,12 @@
+{
+  "imports": {
+    "Opine": "https://deno.land/x/opine@2.2.0/mod.ts",
+    "DenoDB": "https://deno.land/x/denodb@v1.0.40/mod.ts",
+    "uuid": "https://deno.land/std@0.147.0/uuid/mod.ts",
+    "dotenv": "https://deno.land/x/dotenv@v3.2.0/load.ts",
+    "@Entities/": "./src/Domain/Entities/",
+    "@Domain/": "./src/Domain/",
+    "@Infrastructure/": "./src/Infrastructure/",
+    "@Shared/": "./src/Shared/"
+  }
+}
